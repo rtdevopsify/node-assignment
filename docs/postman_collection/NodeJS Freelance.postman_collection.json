@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "bb42ff0c-3a50-4a12-accd-8a57ec85d673",
+		"name": "NodeJS Freelance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dashboard API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"number\": 7\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/input",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"input"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashborad  List files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/input/list",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"input",
+						"list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
